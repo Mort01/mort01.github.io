@@ -1,0 +1,171 @@
+* {
+margin: 0;
+padding: 0;
+text-align: center;
+}
+.gridcontainer{
+  display: grid;
+  grid-template-areas:
+  "Menu Menu Menu"
+  "Body Body Body"
+  "Media Media Media";
+}
+h1{
+  margin-top: 0%;
+  text-align: center;
+  padding: 30px;
+  color: black;
+}
+h2{
+ padding: 30px;
+  color: black;
+  text-align: center;
+
+}
+#inschrijf{
+  margin-top: 20%;
+}
+p{
+color: black;
+}
+h3{
+color: black;
+}
+table{
+border: 1px;
+color: black;
+border-style: groove;
+background-color:blue;
+margin-left: 500px;
+}
+td{
+  font-size:25px;
+  font-weight:bold;
+  background-color: #2a015b;
+  color: white;
+}
+th{
+  font-size:25px;
+  font-weight:bold;
+  padding:10px;
+  color: white;
+}
+tr{
+  margin:10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2a015b;
+  text-align: center;
+  font-family: 'arial';
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #3d0087;
+}
+body {
+ background-image: url("https://cdn.glitch.com/870a78c2-b3ad-47d0-9db2-7cb35acaacf6%2Ftumblr_mvkbubj5NJ1rsdpaso1_500.gif?1551015353578");
+  background-repeat: no-repeat;
+  margin: 0%;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color:#fffca5;
+  font-family: 'arial';
+
+}
+header{
+padding: 0px;
+  text-align: center;
+  font-family: 'arial';
+  font-size: 40px;
+  color: #fffca5
+}
+
+footer{
+margin-bottom: 20px;
+text-align: center;
+  padding: 30px;
+  color: #fffca5;
+}
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  padding: 30px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+#logo{
+padding: 0px;
+margin-top: 0px;
+width: 50px;
+height: 50px;
+position: fixed;
+}
+
+.Body{
+background-color: white;
+   opacity: 0.6;
+}
+
+.actie{
+  color:black;
+  width: 20%;
+  height: 200px;
+  margin-left: 40%;
+  opacity: 0.9 ;
+  text-align: center;
+}
+
+#actie{
+height: 100%;
+}
+
+#actie:hover{
+opacity: 0.5;
+}
+#inschrijf:hover{
+opacity: 0.5;
+}
+#log:hover{
+opacity: 0.5;
+}
+
+
+    
